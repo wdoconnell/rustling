@@ -1,13 +1,10 @@
-fn greet_world() {
-    println!("Hello, world");
-    let southern_germany = "Grüß Gott";
-    let japan = "こんにちは世界";
-    let regions = [southern_germany, japan];
-    for region in regions.iter() {
-        println!("{}", &region);
-    }
-}
-
 fn main() {
-    greet_world()
+    println!("Testing a loop");
+    let first_element = "a";
+    let second_element = "b";
+
+    let elements = [first_element, second_element];
+    for element in elements.iter() {
+        println!("{}", &element)
+    }
 }
